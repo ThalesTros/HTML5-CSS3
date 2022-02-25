@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Snowinter';
+            src: url(font/snowinter.otf) format('opentype'), url(font/snowinter.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Christmas Dream';
+            src: url(font/christmasDream.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /* 
+            Tipos de Format ()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+        */
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            text-align: justify;
+        }
+
+        h1 {
+            font-family: 'Christmas Dream', serif;
+            font-size: 3em;
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h2 {
+            font-family: 'Snowinter', serif;
+            font-size: 2em;
+            font-weight: normal;
+            font-style: normal;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Feliz Natal</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, praesentium qui eveniet nostrum maiores et distinctio dolor illum maxime quae magnam nobis, quidem aspernatur, nemo voluptates natus quibusdam laborum modi.</p>
+    <h2>Merry Christmas</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad saepe ratione corporis dolor id architecto, et necessitatibus voluptas doloremque quis voluptatum optio voluptatibus laboriosam qui sint tempora dignissimos aliquam non.</p>
+</body>
+</html>
